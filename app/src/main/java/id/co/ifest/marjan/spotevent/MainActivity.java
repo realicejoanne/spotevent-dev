@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
-    private Button btnSponsorship, btnPartnership, btnVolunteer, btnEvent;
+    private Button btnSponsorship, btnPartnership, btnVolunteer, btnEvent, btnGotoLogin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,11 +18,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnPartnership = findViewById(R.id.btn_partnership);
         btnVolunteer = findViewById(R.id.btn_voluteer);
         btnEvent = findViewById(R.id.btn_event);
+        btnGotoLogin = findViewById(R.id.btn_goto_login);
 
         btnSponsorship.setOnClickListener(this);
         btnPartnership.setOnClickListener(this);
         btnVolunteer.setOnClickListener(this);
         btnEvent.setOnClickListener(this);
+        btnGotoLogin.setOnClickListener(this);
     }
 
     @Override
@@ -41,6 +43,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 //            case R.id.btn_event:
 //                startActivity(new Intent(this, EventActivity.class));
 //                break;
+            case R.id.btn_goto_login:
+                startActivity(new Intent(this, LoginActivity.class));
         }
     }
 }

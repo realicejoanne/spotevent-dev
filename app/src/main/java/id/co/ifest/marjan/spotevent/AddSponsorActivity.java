@@ -15,7 +15,7 @@ import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-public class FirebaseAddDataActivity extends AppCompatActivity {
+public class AddSponsorActivity extends AppCompatActivity {
     private DatabaseReference database;
 
     private EditText etSponsorName, etSponsorMoney;

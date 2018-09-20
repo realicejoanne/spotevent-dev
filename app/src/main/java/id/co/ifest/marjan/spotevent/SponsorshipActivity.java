@@ -19,7 +19,7 @@ public class SponsorshipActivity extends AppCompatActivity {
         btnAddSponsor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(SponsorshipActivity.this, FirebaseAddDataActivity.class));
+                startActivity(new Intent(SponsorshipActivity.this, AddSponsorActivity.class));
             }
         });
     }
