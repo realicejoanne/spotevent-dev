@@ -19,7 +19,6 @@
         <activity android:name=".SponsorshipActivity" />
         <activity android:name=".AddSponsorActivity" />
         <activity android:name=".LoginActivity" />
-        <activity android:name=".RegisterActivity"></activity>
     </application>
 
     <uses-permission android:name="android.permission.INTERNET"/>
