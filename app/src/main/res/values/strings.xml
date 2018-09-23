@@ -7,6 +7,15 @@
     <string name="et_register_password">Password</string>
     <string name="btn_register">Register</string>
     <string name="tv_already_registered">Already registered? Login here</string>
+    <string name="et_register_fullname">Full Name</string>
+    <string name="tv_register_id">Public ID : </string>
+    <string name="rb_ktp">KTP</string>
+    <string name="rb_SIM">SIM</string>
+    <string name="rb_student_card">Student Card</string>
+    <string name="et_register_public_id">Public ID Number</string>
+    <string name="et_register_birthplace">Birthplace</string>
+    <string name="et_register_birthday">Birthday</string>
+    <string name="et_register_address">Address</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

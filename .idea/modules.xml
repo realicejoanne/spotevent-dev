@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spotevent.iml" filepath="$PROJECT_DIR$/spotevent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spotevent-app.iml" filepath="$PROJECT_DIR$/spotevent-app.iml" />
     </modules>
   </component>
 </project>

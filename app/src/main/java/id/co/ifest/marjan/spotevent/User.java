@@ -1,13 +1,11 @@
 package id.co.ifest.marjan.spotevent;
 
 public class User {
-    private String fullname, username, password, email;
+    private String fullname, email;
+    private String publicID, publicIDTypes, birthday, birthplace, address;
 
-    User(String fullname, String username, String password, String email){
-        this.fullname = fullname;
-        this.username = username;
-        this.password = password;
-        this.email = email;
+    User(){
+
     }
 
     public String getFullname() {
@@ -18,27 +16,51 @@ public class User {
         this.fullname = fullname;
     }
 
-    public String getUsername() {
-        return username;
-    }
-
-    public void setUsername(String username) {
-        this.username = username;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
     public String getEmail() {
         return email;
     }
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String getPublicID() {
+        return publicID;
+    }
+
+    public void setPublicID(String publicID) {
+        this.publicID = publicID;
+    }
+
+    public String getPublicIDTypes() {
+        return publicIDTypes;
+    }
+
+    public void setPublicIDTypes(String publicIDTypes) {
+        this.publicIDTypes = publicIDTypes;
+    }
+
+    public String getBirthday() {
+        return birthday;
+    }
+
+    public void setBirthday(String birthday) {
+        this.birthday = birthday;
+    }
+
+    public String getBirthplace() {
+        return birthplace;
+    }
+
+    public void setBirthplace(String birthplace) {
+        this.birthplace = birthplace;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 }
