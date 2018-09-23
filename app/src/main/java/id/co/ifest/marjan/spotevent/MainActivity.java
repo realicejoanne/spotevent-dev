@@ -61,9 +61,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 //            case R.id.btn_voluteer:
 //                startActivity(new Intent(this, VolunteerActivity.class));
 //                break;
-//            case R.id.btn_event:
-//                startActivity(new Intent(this, EventActivity.class));
-//                break;
+            case R.id.btn_event:
+                startActivity(new Intent(this, EventActivity.class));
+                break;
             case R.id.btn_goto_login:
                 startActivity(new Intent(this, LoginActivity.class));
                 break;
