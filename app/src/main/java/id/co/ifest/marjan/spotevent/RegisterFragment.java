@@ -148,7 +148,7 @@ public class RegisterFragment extends Fragment {
                         if(task.isSuccessful()){
                             FirebaseUser firebaseUser = mAuth.getCurrentUser();
                             String userKey = firebaseUser.getUid();
-                            mDatabase.child("users").child(userKey).push().setValue(user).addOnSuccessListener(getActivity(), new OnSuccessListener<Void>() {
+                            mDatabase.child("users").child(userKey).setValue(user).addOnSuccessListener(getActivity(), new OnSuccessListener<Void>() {
                                 @Override
                                 public void onSuccess(Void aVoid) {
                                     etEmail.setText("");

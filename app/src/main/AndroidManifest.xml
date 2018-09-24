@@ -18,7 +18,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".SponsorshipActivity" />
-        <activity android:name=".AddSponsorActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".EventActivity"></activity>
     </application>
