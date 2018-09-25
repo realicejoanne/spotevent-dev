@@ -31,7 +31,20 @@
     <string name="tv_sponsor_label">Sponsor</string>
     <string name="btn_sponsor_event">Sponsor this event!</string>
 
-    <!-- Partner Read Single Activity Onlu -->
+    <!-- Partner Read Single Activity Only -->
     <string name="tv_partner_label">Partner</string>
     <string name="btn_partner_event">Support this event!</string>
+
+    <!-- Sponsor and Support this Activity -->
+    <string name="tv_this_label"> This Event </string>
+    <string name="tv_this_name_label">Name</string>
+    <string name="tv_this_name">Ojan</string>
+    <string name="tv_this_public_id_label">ID Type</string>
+    <string name="tv_this_public_id">Student Card</string>
+    <string name="tv_this_public_id_number_label">Public ID</string>
+    <string name="tv_this_public_id_number">140810150041</string>
+    <string name="tv_this_email_label">Email</string>
+    <string name="tv_this_email">ojan@gmail.com</string>
+    <string name="et_add_money">Money</string>
+    <string name="btn_this_go">Submit</string>
 </resources>
