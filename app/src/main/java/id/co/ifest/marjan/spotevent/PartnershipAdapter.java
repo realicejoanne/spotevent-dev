@@ -32,14 +32,13 @@ public class PartnershipAdapter extends RecyclerView.Adapter<PartnershipAdapter.
     public void onBindViewHolder(ViewHolder holder, final int position) {
         holder.sponsorDesc.setText(sponsors.get(position).getDesc());
         holder.sponsorName.setText(sponsors.get(position).getName());
-        holder.sponsorMoney.setText(sponsors.get(position).getMoney());
         holder.sponsorTime.setText(sponsors.get(position).getTime());
         Picasso.with(context).load(sponsors.get(position).getImageUrl()).resize(500, 300).into(holder.sponsorImage);
 
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(context, SponsorReadSingleActivity.class);
+                Intent intent = new Intent(context, PartnerReadSingleActivity.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 intent.putExtra("sponsorObject", sponsors.get(position));
                 context.startActivity(intent);
@@ -74,17 +73,15 @@ public class PartnershipAdapter extends RecyclerView.Adapter<PartnershipAdapter.
         public ImageView sponsorImage;
         public TextView sponsorName;
         public TextView sponsorDesc;
-        public TextView sponsorMoney;
         public TextView sponsorTime;
 
         public ViewHolder(View itemView) {
             super(itemView);
 
-            sponsorName = (TextView)itemView.findViewById(R.id.tv_sponsor_name);
-            sponsorImage = (ImageView)itemView.findViewById(R.id.img_sponsor);
-            sponsorDesc = (TextView)itemView.findViewById(R.id.tv_sponsor_desc);
-            sponsorMoney = (TextView)itemView.findViewById(R.id.tv_sponsor_money);
-            sponsorTime = (TextView)itemView.findViewById(R.id.tv_sponsor_time);
+            sponsorName = (TextView)itemView.findViewById(R.id.tv_partner_name);
+            sponsorImage = (ImageView)itemView.findViewById(R.id.img_partner);
+            sponsorDesc = (TextView)itemView.findViewById(R.id.tv_partner_desc);
+            sponsorTime = (TextView)itemView.findViewById(R.id.tv_partner_time);
         }
     }
 }

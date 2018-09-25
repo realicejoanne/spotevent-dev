@@ -8,8 +8,7 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-public class SponsorReadSingleActivity extends AppCompatActivity {
-
+public class PartnerReadSingleActivity extends AppCompatActivity {
     ImageView sponsorImage;
     TextView tvSponsorTitle, tvCurrentMoney, tvTargetMoney;
     TextView tvSponsorDesc, tvSponsorTime, tvSponsorCurrentProgress;
@@ -19,17 +18,17 @@ public class SponsorReadSingleActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sponsor_read_single);
+        setContentView(R.layout.activity_partner_read_single);
         // Init()
-        sponsorImage = findViewById(R.id.sponsor_image);
-        tvSponsorTitle = findViewById(R.id.tv_sponsor_single_title);
-        tvCurrentMoney = findViewById(R.id.tv_sponsor_single_current_money);
-        tvTargetMoney = findViewById(R.id.tv_sponsor_single_target_money);
-        tvSponsorDesc = findViewById(R.id.tv_sponsor_single_desc);
-        tvSponsorTime = findViewById(R.id.tv_sponsor_single_time);
-        tvSponsorCurrentProgress = findViewById(R.id.tv_sponsor_current_progress);
-        sponsorProgressBar = findViewById(R.id.sponsor_single_progress_bar);
-        btnSponsorGo = findViewById(R.id.btn_sponsor_single_go);
+        sponsorImage = findViewById(R.id.partner_image);
+        tvSponsorTitle = findViewById(R.id.tv_partner_single_title);
+        tvCurrentMoney = findViewById(R.id.tv_partner_single_current_money);
+        tvTargetMoney = findViewById(R.id.tv_partner_single_target_money);
+        tvSponsorDesc = findViewById(R.id.tv_partner_single_desc);
+        tvSponsorTime = findViewById(R.id.tv_partner_single_time);
+        tvSponsorCurrentProgress = findViewById(R.id.tv_partner_current_progress);
+        sponsorProgressBar = findViewById(R.id.partner_single_progress_bar);
+        btnSponsorGo = findViewById(R.id.btn_partner_single_go);
 
         Sponsor sponsor = (Sponsor) getIntent().getSerializableExtra("sponsorObject");
         String progress = getProgress(sponsor.getMoney(),sponsor.getTargetMoney());

@@ -14,14 +14,17 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".LoginActivity" />
-        <activity android:name=".EventActivity"></activity>
-        <activity android:name=".SponsorReadSingleActivity"/>
-        <activity android:name=".PartnershipUpcomingEventActivity"/>
-        <activity android:name=".SponsorshipUpcomingEventActivity"/>
+        <activity android:name=".EventActivity" />
+        <activity android:name=".SponsorReadSingleActivity" />
+        <activity android:name=".PartnershipUpcomingEventActivity" />
+        <activity android:name=".SponsorshipUpcomingEventActivity" />
+        <activity android:name=".PartnerReadSingleActivity" />
+        <activity android:name=".SponsorThisActivity"></activity>
     </application>
 
 </manifest>

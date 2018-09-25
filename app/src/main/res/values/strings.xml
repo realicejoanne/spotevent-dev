@@ -17,7 +17,7 @@
     <string name="et_register_birthday">Birthday</string>
     <string name="et_register_address">Address</string>
 
-    <!-- General Read Single Fragment -->
+    <!-- General Read Single activity -->
     <string name="tv_event_title">Judul Event</string>
     <string name="tv_current_money">Rp. 0</string>
     <string name="tv_target_money">Rp. 0</string>
@@ -27,7 +27,11 @@
     <string name="btn_like">Like</string>
     <string name="btn_share">Share</string>
 
-    <!-- Sponsor Read Single Fragment Only -->
+    <!-- Sponsor Read Single Activity Only -->
     <string name="tv_sponsor_label">Sponsor</string>
     <string name="btn_sponsor_event">Sponsor this event!</string>
+
+    <!-- Partner Read Single Activity Onlu -->
+    <string name="tv_partner_label">Partner</string>
+    <string name="btn_partner_event">Support this event!</string>
 </resources>
