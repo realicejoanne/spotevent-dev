@@ -1,11 +1,28 @@
 package id.co.ifest.marjan.spotevent;
 
-public class Sponsor {
+import android.os.Parcel;
+import android.os.Parcelable;
+
+import java.io.Serializable;
+import java.util.ArrayList;
+
+import static java.lang.System.out;
+
+public class Sponsor implements Serializable{
     private String name, desc;
     private String imageUrl, money, time;
+    private String targetMoney;
 
     public Sponsor(){
 
+    }
+
+    public String getTargetMoney() {
+        return targetMoney;
+    }
+
+    public void setTargetMoney(String targetMoney) {
+        this.targetMoney = targetMoney;
     }
 
     public String getName() {
@@ -47,4 +64,5 @@ public class Sponsor {
     public void setTime(String time) {
         this.time = time;
     }
+
 }

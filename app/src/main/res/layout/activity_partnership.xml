@@ -2,8 +2,16 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PartnershipActivity">
+    tools:context=".PartnershipUpcomingEventActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_partnership_activity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"/>
 
 </android.support.constraint.ConstraintLayout>

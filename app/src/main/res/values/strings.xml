@@ -17,6 +17,17 @@
     <string name="et_register_birthday">Birthday</string>
     <string name="et_register_address">Address</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- General Read Single Fragment -->
+    <string name="tv_event_title">Judul Event</string>
+    <string name="tv_current_money">Rp. 0</string>
+    <string name="tv_target_money">Rp. 0</string>
+    <string name="tv_current_process">0% Pencapaian</string>
+    <string name="tv_time">0 Hari lagi</string>
+    <string name="tv_desc">Deskripsi Event</string>
+    <string name="btn_like">Like</string>
+    <string name="btn_share">Share</string>
+
+    <!-- Sponsor Read Single Fragment Only -->
+    <string name="tv_sponsor_label">Sponsor</string>
+    <string name="btn_sponsor_event">Sponsor this event!</string>
 </resources>

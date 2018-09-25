@@ -53,11 +53,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         int id = view.getId();
         switch (id){
             case R.id.btn_sponsorship:
-                startActivity(new Intent(this, SponsorshipActivity.class));
+                startActivity(new Intent(this, SponsorshipUpcomingEventActivity.class));
                 break;
-//            case R.id.btn_partnership:
-//                startActivity(new Intent(this, PartnershipActivity.class));
-//                break;
+            case R.id.btn_partnership:
+                startActivity(new Intent(this, PartnershipUpcomingEventActivity.class));
+                break;
 //            case R.id.btn_voluteer:
 //                startActivity(new Intent(this, VolunteerActivity.class));
 //                break;

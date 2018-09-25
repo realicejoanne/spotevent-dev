@@ -1,19 +1,12 @@
 package id.co.ifest.marjan.spotevent;
 
-import android.content.Intent;
-import android.provider.ContactsContract;
 import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
-import android.view.View;
-import android.widget.Button;
 
-import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -21,34 +14,33 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
-import java.util.Map;
 
-public class SponsorshipActivity extends AppCompatActivity {
+public class PartnershipUpcomingEventActivity extends AppCompatActivity {
+
     private DatabaseReference mDatabase;
-    RecyclerView rvSponsor;
+    RecyclerView rvPartner;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sponsorship);
+        setContentView(R.layout.activity_partnership);
 
         mDatabase = FirebaseDatabase.getInstance().getReference();
 
-        viewSponsor();
+        viewPartner();
     }
 
-    private void viewSponsor() {
-        rvSponsor = (RecyclerView)findViewById(R.id.rv_sponsorship_activity);
-        rvSponsor.setHasFixedSize(true);
+    private void viewPartner() {
+        rvPartner = (RecyclerView)findViewById(R.id.rv_partnership_activity);
+        rvPartner.setHasFixedSize(true);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getApplicationContext());
-        rvSponsor.setLayoutManager(layoutManager);
+        rvPartner.setLayoutManager(layoutManager);
 
         prepareData();
     }
 
     private void prepareData() {
         final DatabaseReference ref = mDatabase.child("sponsor");
-        final ArrayList<Sponsor> sponsors = new ArrayList<>();
 
         ref.addValueEventListener(new ValueEventListener() {
             @Override
@@ -65,16 +57,17 @@ public class SponsorshipActivity extends AppCompatActivity {
                     sponsor.setMoney(ds.child("money").getValue(String.class));
                     sponsor.setTime(ds.child("time").getValue(String.class));
                     sponsor.setImageUrl(ds.child("image").getValue(String.class));
+                    sponsor.setTargetMoney(ds.child("targetmoney").getValue(String.class));
                     sponsors.add(sponsor);
                 }
 
-                SponsorshipAdapter adapter = new SponsorshipAdapter(getApplicationContext(), sponsors);
-                rvSponsor.setAdapter(adapter);
+                PartnershipAdapter adapter = new PartnershipAdapter(getApplicationContext(), sponsors);
+                rvPartner.setAdapter(adapter);
             }
 
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
-                Log.d("SponsorActivity", "Read Failed");
+                Log.d("PartnershipActivity", "Read Failed");
             }
         });
     }

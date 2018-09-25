@@ -17,9 +17,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SponsorshipActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".EventActivity"></activity>
+        <activity android:name=".SponsorReadSingleActivity"/>
+        <activity android:name=".PartnershipUpcomingEventActivity"/>
+        <activity android:name=".SponsorshipUpcomingEventActivity"/>
     </application>
 
 </manifest>
