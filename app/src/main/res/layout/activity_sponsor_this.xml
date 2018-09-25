@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     xmlns:tools="http://schemas.android.com/tools"
-    android:padding="10dp"
+    android:padding="16dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SponsorThisActivity">
@@ -14,6 +14,82 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:id="@+id/tv_this_name_label"
+                android:text="@string/tv_this_name_label"
+                android:layout_weight="5"
+                android:gravity="center"/>
 
+            <TextView
+                android:id="@+id/tv_this_name"
+                android:text="@string/tv_this_name"
+                android:layout_weight="1"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:id="@+id/tv_this_email_label"
+                android:text="@string/tv_this_email_label"
+                android:layout_weight="5"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/tv_this_email"
+                android:text="@string/tv_this_email"
+                android:layout_weight="1"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:id="@+id/tv_this_public_id_label"
+                android:text="@string/tv_this_public_id_label"
+                android:layout_weight="5"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/tv_this_public_id"
+                android:text="@string/tv_this_public_id"
+                android:layout_weight="1"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:id="@+id/tv_this_public_id_number_label"
+                android:text="@string/tv_this_public_id_number_label"
+                android:layout_weight="5"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/tv_this_public_id_number"
+                android:text="@string/tv_this_public_id_number"
+                android:layout_weight="1"
+                android:gravity="center"/>
+        </TableRow>
+
+    </TableLayout>
+    <android.support.design.widget.TextInputLayout
+        style="@style/commonLayoutStyle">
+        <EditText
+            android:id="@+id/et_add_money"
+            android:hint="@string/et_add_money"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+    <Button
+        android:id="@+id/btn_this_go"
+        android:text="@string/btn_this_go"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 </LinearLayout>

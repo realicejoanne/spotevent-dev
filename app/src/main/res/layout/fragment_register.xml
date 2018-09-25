@@ -9,18 +9,23 @@
     tools:context=".RegisterFragment">
 
     <TextView
+        android:text="@string/tv_register_title"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/tv_register_title" />
-    <EditText
-        android:id="@+id/et_register_fullname"
-        android:hint="@string/et_register_fullname"
-        android:inputType="textCapWords"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"/>
+    <android.support.design.widget.TextInputLayout
+        style="@style/commonLayoutStyle">
+        <EditText
+            android:id="@+id/et_register_fullname"
+            android:hint="@string/et_register_fullname"
+            android:inputType="textCapWords"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
     <RadioGroup
         android:id="@+id/rg_register_public_id"
         android:orientation="horizontal"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <TextView
@@ -43,42 +48,60 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
     </RadioGroup>
-    <EditText
-        android:id="@+id/et_register_public_id"
-        android:hint="@string/et_register_public_id"
-        android:inputType="number"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <EditText
-        android:id="@+id/et_register_email"
-        android:hint="@string/et_register_email"
-        android:inputType="textEmailAddress"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <EditText
-        android:id="@+id/et_register_password"
-        android:hint="@string/et_register_password"
-        android:inputType="textPassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <EditText
-        android:id="@+id/et_register_birthplace"
-        android:hint="@string/et_register_birthplace"
-        android:inputType="textCapWords"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <EditText
-        android:id="@+id/et_register_birthday"
-        android:hint="@string/et_register_birthday"
-        android:inputType="date"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <EditText
-        android:id="@+id/et_register_address"
-        android:hint="@string/et_register_address"
-        android:inputType="textCapWords|textLongMessage|textMultiLine"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+    <android.support.design.widget.TextInputLayout
+        style="@style/commonLayoutStyle">
+        <EditText
+            android:id="@+id/et_register_public_id"
+            android:hint="@string/et_register_public_id"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        style="@style/commonLayoutStyle">
+        <EditText
+            android:id="@+id/et_register_email"
+            android:hint="@string/et_register_email"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        style="@style/commonLayoutStyle">
+        <EditText
+            android:id="@+id/et_register_password"
+            android:hint="@string/et_register_password"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        style="@style/commonLayoutStyle">
+        <EditText
+            android:id="@+id/et_register_birthplace"
+            android:hint="@string/et_register_birthplace"
+            android:inputType="textCapWords"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        style="@style/commonLayoutStyle">
+        <EditText
+            android:id="@+id/et_register_birthday"
+            android:hint="@string/et_register_birthday"
+            android:inputType="date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        style="@style/commonLayoutStyle">
+        <EditText
+            android:id="@+id/et_register_address"
+            android:hint="@string/et_register_address"
+            android:inputType="textCapWords|textLongMessage|textMultiLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
     <Button
         android:id="@+id/btn_register"
         android:text="@string/btn_register"

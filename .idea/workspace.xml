@@ -15,14 +15,13 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/ifest/marjan/spotevent/PartnershipAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/id/co/ifest/marjan/spotevent/PartnershipAdapter.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/ifest/marjan/spotevent/SponsorReadSingleActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/id/co/ifest/marjan/spotevent/SponsorReadSingleActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/partnership_row_layout.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/partnership_row_layout.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/ifest/marjan/spotevent/SponsorThisActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/id/co/ifest/marjan/spotevent/SponsorThisActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_sponsor_this.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_sponsor_this.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_register.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_register.xml" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,58 +44,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="activity_partnership.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_partnership.xml">
+      <file leaf-file-name="activity_sponsor_this.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_sponsor_this.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="partnership_row_layout.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/partnership_row_layout.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5">
-              <caret line="41" column="17" lean-forward="false" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PartnershipAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/id/co/ifest/marjan/spotevent/PartnershipAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="33" column="69" lean-forward="false" selection-start-line="33" selection-start-column="69" selection-end-line="33" selection-end-column="69" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_partner_read_single.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_partner_read_single.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="50" column="32" lean-forward="false" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
+            <state relative-caret-position="239">
+              <caret line="85" column="35" lean-forward="false" selection-start-line="85" selection-start-column="35" selection-end-line="85" selection-end-column="35" />
               <folding>
-                <element signature="e#682#708#0" expanded="true" />
-                <element signature="e#1031#1055#0" expanded="true" />
-                <element signature="e#1486#1512#0" expanded="true" />
-                <element signature="e#1900#1925#0" expanded="true" />
-                <element signature="e#2614#2642#0" expanded="true" />
-                <element signature="e#2953#2970#0" expanded="true" />
-                <element signature="e#3293#3310#0" expanded="true" />
-                <element signature="e#3756#3774#0" expanded="true" />
-                <element signature="e#4103#4122#0" expanded="true" />
-                <element signature="e#4398#4425#0" expanded="true" />
+                <element signature="e#440#463#0" expanded="true" />
+                <element signature="e#928#956#0" expanded="true" />
+                <element signature="e#1141#1163#0" expanded="true" />
+                <element signature="e#1490#1519#0" expanded="true" />
+                <element signature="e#1705#1728#0" expanded="true" />
+                <element signature="e#2059#2092#0" expanded="true" />
+                <element signature="e#2282#2309#0" expanded="true" />
+                <element signature="e#2647#2687#0" expanded="true" />
+                <element signature="e#2883#2917#0" expanded="true" />
+                <element signature="e#3222#3244#0" expanded="true" />
+                <element signature="e#3508#3529#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,21 +69,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PartnerReadSingleActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/id/co/ifest/marjan/spotevent/PartnerReadSingleActivity.java">
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="50" column="4" lean-forward="false" selection-start-line="50" selection-start-column="4" selection-end-line="58" selection-end-column="5" />
+            <state relative-caret-position="527">
+              <caret line="47" column="46" lean-forward="false" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PartnershipUpcomingEventActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/id/co/ifest/marjan/spotevent/PartnershipUpcomingEventActivity.java">
+      <file leaf-file-name="RegisterFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/id/co/ifest/marjan/spotevent/RegisterFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="57" column="67" lean-forward="false" selection-start-line="57" selection-start-column="67" selection-end-line="57" selection-end-column="67" />
+            <state relative-caret-position="196">
+              <caret line="143" column="54" lean-forward="false" selection-start-line="143" selection-start-column="54" selection-end-line="143" selection-end-column="54" />
+              <folding>
+                <element signature="e#2845#4010#0" expanded="true" />
+                <element signature="e#4009#4010#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fragment_register.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_register.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="58" column="52" lean-forward="false" selection-start-line="50" selection-start-column="4" selection-end-line="58" selection-end-column="52" />
+              <folding>
+                <element signature="e#409#436#0" expanded="true" />
+                <element signature="e#715#745#0" expanded="true" />
+                <element signature="e#4281#4310#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SponsorshipAdapter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/id/co/ifest/marjan/spotevent/SponsorshipAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="43" column="64" lean-forward="false" selection-start-line="43" selection-start-column="64" selection-end-line="43" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -128,46 +132,41 @@
       <file leaf-file-name="SponsorReadSingleActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/id/co/ifest/marjan/spotevent/SponsorReadSingleActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_sponsor_this.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_sponsor_this.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fragment_register.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_register.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="77" column="50" lean-forward="true" selection-start-line="77" selection-start-column="50" selection-end-line="77" selection-end-column="50" />
+            <state relative-caret-position="225">
+              <caret line="47" column="94" lean-forward="false" selection-start-line="47" selection-start-column="94" selection-end-line="47" selection-end-column="94" />
               <folding>
-                <element signature="e#3075#3104#0" expanded="true" />
+                <element signature="e#2015#2226#0" expanded="true" />
+                <element signature="e#2225#2226#0" expanded="true" />
               </folding>
             </state>
           </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="SponsorshipUpcomingEventActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/id/co/ifest/marjan/spotevent/SponsorshipUpcomingEventActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="52" column="65" lean-forward="false" selection-start-line="52" selection-start-column="65" selection-end-line="52" selection-end-column="65" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="SponsorThisActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/id/co/ifest/marjan/spotevent/SponsorThisActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="10" column="55" lean-forward="false" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+            <state relative-caret-position="214">
+              <caret line="45" column="52" lean-forward="false" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/id/co/ifest/marjan/spotevent/LoginFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="526">
+              <caret line="64" column="40" lean-forward="false" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -2228,21 +2227,24 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_event.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/event_row_layout.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/id/co/ifest/marjan/spotevent/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_register.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/partnership_row_layout.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/id/co/ifest/marjan/spotevent/PartnershipAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_partner_read_single.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/id/co/ifest/marjan/spotevent/PartnerReadSingleActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/id/co/ifest/marjan/spotevent/SponsorReadSingleActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_register.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_sponsor_this.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/id/co/ifest/marjan/spotevent/SponsorReadSingleActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/id/co/ifest/marjan/spotevent/SponsorThisActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/id/co/ifest/marjan/spotevent/SponsorshipAdapter.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="323" />
-    <option name="y" value="-22" />
+    <option name="x" value="485" />
+    <option name="y" value="-11" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -2288,7 +2290,23 @@
               <item name="spotevent-app" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="drawable" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="spotevent-app" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
               <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="spotevent-app" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="spotevent-app" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
           <select />
@@ -2313,6 +2331,9 @@
   <component name="RecentsManager">
     <key name="android.template.packageName">
       <recent name="id.co.ifest.marjan.spotevent" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\Android\SpotEvent\spotevent-app\app\src\main\res\drawable" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -2505,8 +2526,8 @@
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290469" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290469" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2564,15 +2585,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/co/ifest/marjan/spotevent/Sponsor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/co/ifest/marjan/spotevent/SponsorReadSingleFragment.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_sponsorship.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -2611,16 +2623,6 @@
       </provider>
       <provider editor-type-id="android-designer2">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/co/ifest/marjan/spotevent/SponsorshipUpcomingEventActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="52" column="65" lean-forward="false" selection-start-line="52" selection-start-column="65" selection-end-line="52" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
@@ -2709,19 +2711,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/co/ifest/marjan/spotevent/SponsorshipAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="24" column="91" lean-forward="false" selection-start-line="24" selection-start-column="91" selection-end-line="24" selection-end-column="91" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/id/co/ifest/marjan/spotevent/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -2741,35 +2730,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_db_create.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/co/ifest/marjan/spotevent/LoginFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="64" column="40" lean-forward="false" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/id/co/ifest/marjan/spotevent/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="31" column="37" lean-forward="false" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="32" column="61" lean-forward="false" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2819,13 +2783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/co/ifest/marjan/spotevent/RegisterFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-316">
-          <caret line="47" column="14" lean-forward="false" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -2892,14 +2849,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_partnership.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -2943,16 +2892,16 @@
         <state relative-caret-position="220">
           <caret line="50" column="32" lean-forward="false" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
           <folding>
-            <element signature="e#682#708#0" expanded="true" />
-            <element signature="e#1031#1055#0" expanded="true" />
-            <element signature="e#1486#1512#0" expanded="true" />
-            <element signature="e#1900#1925#0" expanded="true" />
-            <element signature="e#2614#2642#0" expanded="true" />
-            <element signature="e#2953#2970#0" expanded="true" />
-            <element signature="e#3293#3310#0" expanded="true" />
-            <element signature="e#3756#3774#0" expanded="true" />
-            <element signature="e#4103#4122#0" expanded="true" />
-            <element signature="e#4398#4425#0" expanded="true" />
+            <element signature="e#682#708#0" expanded="false" />
+            <element signature="e#1031#1055#0" expanded="false" />
+            <element signature="e#1486#1512#0" expanded="false" />
+            <element signature="e#1900#1925#0" expanded="false" />
+            <element signature="e#2614#2642#0" expanded="false" />
+            <element signature="e#2953#2970#0" expanded="false" />
+            <element signature="e#3293#3310#0" expanded="false" />
+            <element signature="e#3756#3774#0" expanded="false" />
+            <element signature="e#4103#4122#0" expanded="false" />
+            <element signature="e#4398#4425#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2968,26 +2917,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/co/ifest/marjan/spotevent/SponsorReadSingleActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/co/ifest/marjan/spotevent/SponsorThisActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="55" lean-forward="false" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_sponsor_this.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="204">
+          <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -2995,13 +2928,127 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="26" column="54" lean-forward="true" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/edit_box.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="47" column="46" lean-forward="false" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_register.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="77" column="50" lean-forward="true" selection-start-line="77" selection-start-column="50" selection-end-line="77" selection-end-column="50" />
+        <state relative-caret-position="306">
+          <caret line="58" column="52" lean-forward="false" selection-start-line="50" selection-start-column="4" selection-end-line="58" selection-end-column="52" />
           <folding>
-            <element signature="e#3075#3104#0" expanded="true" />
+            <element signature="e#409#436#0" expanded="true" />
+            <element signature="e#715#745#0" expanded="true" />
+            <element signature="e#4281#4310#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/co/ifest/marjan/spotevent/LoginFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="64" column="40" lean-forward="false" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/co/ifest/marjan/spotevent/RegisterFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="143" column="54" lean-forward="false" selection-start-line="143" selection-start-column="54" selection-end-line="143" selection-end-column="54" />
+          <folding>
+            <element signature="e#2845#4010#0" expanded="true" />
+            <element signature="e#4009#4010#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_sponsor_this.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="85" column="35" lean-forward="false" selection-start-line="85" selection-start-column="35" selection-end-line="85" selection-end-column="35" />
+          <folding>
+            <element signature="e#440#463#0" expanded="true" />
+            <element signature="e#928#956#0" expanded="true" />
+            <element signature="e#1141#1163#0" expanded="true" />
+            <element signature="e#1490#1519#0" expanded="true" />
+            <element signature="e#1705#1728#0" expanded="true" />
+            <element signature="e#2059#2092#0" expanded="true" />
+            <element signature="e#2282#2309#0" expanded="true" />
+            <element signature="e#2647#2687#0" expanded="true" />
+            <element signature="e#2883#2917#0" expanded="true" />
+            <element signature="e#3222#3244#0" expanded="true" />
+            <element signature="e#3508#3529#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/co/ifest/marjan/spotevent/SponsorReadSingleActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="47" column="94" lean-forward="false" selection-start-line="47" selection-start-column="94" selection-end-line="47" selection-end-column="94" />
+          <folding>
+            <element signature="e#2015#2226#0" expanded="true" />
+            <element signature="e#2225#2226#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/co/ifest/marjan/spotevent/SponsorshipUpcomingEventActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="52" column="65" lean-forward="false" selection-start-line="52" selection-start-column="65" selection-end-line="52" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/co/ifest/marjan/spotevent/SponsorThisActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="45" column="52" lean-forward="false" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/co/ifest/marjan/spotevent/SponsorshipAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="43" column="64" lean-forward="false" selection-start-line="43" selection-start-column="64" selection-end-line="43" selection-end-column="64" />
+          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
