@@ -1,6 +1,6 @@
 # Spotevent App
 
-SpotEvent App for IFEST 2018’s INTENTION in Android App Development Category
+SpotEvent App for IFEST 2018’s INTENTION in Android App Development Category.
 
 Developers:
 - Muhamad Yusrizan (Project Leader)
